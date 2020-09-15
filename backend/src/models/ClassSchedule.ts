@@ -7,6 +7,7 @@ import {
   ManyToOne,
   JoinColumn,
 } from 'typeorm';
+
 import Class from './Class';
 
 @Entity('class_schedule')
