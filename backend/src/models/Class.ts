@@ -7,6 +7,7 @@ import {
   ManyToOne,
   JoinColumn,
 } from 'typeorm';
+
 import User from './User';
 
 @Entity('classes')
@@ -18,7 +19,7 @@ class Class {
   subject: string;
 
   @Column('float')
-  cost: number;
+  price: number;
 
   @Column()
   user_id: string;
