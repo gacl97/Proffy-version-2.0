@@ -22,7 +22,7 @@ export default class CreateClasses1599655180819 implements MigrationInterface {
             type: 'varchar',
           },
           {
-            name: 'cost',
+            name: 'price',
             type: 'float',
           },
           {
